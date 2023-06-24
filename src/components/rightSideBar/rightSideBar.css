@@ -1,0 +1,27 @@
+.right-bar {
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    right: 0;
+    padding: 0.25rem 2% 0.75rem 2%;
+    z-index: 1;
+}
+
+.right-bar .container {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-bar .container * {
+    /* border: 0; */
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.25rem;
+}

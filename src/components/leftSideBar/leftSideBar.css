@@ -1,0 +1,29 @@
+.left-bar {
+    position: fixed;
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.25rem 2% 0.75rem 2%;
+    overflow: auto;
+}
+
+.left-bar .upper-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-bar .upper-section * {
+    border: 0;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
