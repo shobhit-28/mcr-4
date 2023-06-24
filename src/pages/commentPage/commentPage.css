@@ -1,0 +1,73 @@
+.comment-page .header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem; 
+    border-bottom: .1px solid rgb(228, 228, 247);
+}
+
+.comment-page .header button {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.comment-page .header * {
+    border: 0;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.comment-page .comment-section {
+    padding: 1rem 3rem;
+}
+
+.comment-page .comment-section .color {
+    color: rgba(83, 72, 199, 1);
+    font-style: oblique;
+}
+
+.comment-page .comment-section .comment .flex-div {
+    display: flex;
+    align-items: center;
+}
+
+.comment-page .comment-section .comment .profile-pic-container {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.comment-page .comment-section .comment .name-username-date {
+    display: flex;
+}
+
+.comment-page .comment-section .comment .name-username-date * {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.comment-page .comment-section .comment .name-username-date .username::before {
+    content: '@';
+}
+
+.comment-page .comment-section .comment .posted-by {
+    font-size: 0.8rem;
+}
+
+.comment-page .comment-section .comment .comment-txt {
+    margin: 0.5rem 0;
+}
+
+.comment-page .comment .btn-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.comment-page .comment .btn-container * {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: rgba(83, 72, 199, 0.6);
+    font-size: 1.5rem;
+    cursor: pointer;
+}

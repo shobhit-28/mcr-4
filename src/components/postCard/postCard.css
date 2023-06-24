@@ -3,6 +3,32 @@
     display: flex;
 }
 
+.post-card .left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+}
+
+.post-card .left-section button{
+    cursor: pointer;
+}
+
+.post-card .left-section *{
+    font-size: 1.25rem;
+    border: 0;
+    background-color: transparent;
+}
+
+.post-card .left-section .more-upvotes{
+    color: green;
+}
+
+.post-card .left-section .less-upvotes{
+    color: red;
+}
+
 .post-card .right-section{
     margin-left: 1rem;
 }

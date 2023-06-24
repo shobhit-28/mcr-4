@@ -15,9 +15,9 @@ export const PostCard = ({ postData }) => {
         <div className="post-card">
             <div className="left-section">
                 <div className="vote">
-                    <button className="upvote" onClick={() => upVote(postData?.postId)} ><BiSolidUpvote /></button>
-                    <p className="vote-quantity">{postData?.upvotes - postData?.downvotes}</p>
-                    <button className="downvote" onClick={() => downVote(postData?.postId)}><BiSolidDownvote /></button>
+                    <button className={'more-upvotes'} onClick={() => upVote(postData?.postId)} ><BiSolidUpvote /></button>
+                    <p className={postData?.upvotes > postData?.downvotes ? 'more-upvotes' : 'less-upvotes'}>{postData?.upvotes - postData?.downvotes}</p>
+                    <button className={'less-upvotes'} onClick={() => downVote(postData?.postId)}><BiSolidDownvote /></button>
                 </div>
             </div>
             <div className="right-section">
